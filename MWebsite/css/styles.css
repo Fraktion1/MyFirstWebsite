@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+}
+
+.background {
+	background: url("../img/background.jpg") fixed;
+}
+
+h1 {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.container {
+	background-color: #0000FF;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	width: 80%;
+	min-height: 100vh;
+}
+
+.navi {
+	background-color: #282828;
+	font-size: 20px;
+	display: flex;
+	align-items: stretch;
+}
+
+.navi a {
+	flex-basis: 100%;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+.navi .active {
+	background-color: #808080;
+}
+
+.navi a:hover {
+	background-color: white;
+	color: black;
+}
+
+.hauptteil {
+	margin-top: 15px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.em{
+
+}
+
+.footer {
+    background-color: #0000FF;
+    text-allign: center;
+}
+
+table, th, td {
+  border: 1px solid;
+  width: 100%;
+}
